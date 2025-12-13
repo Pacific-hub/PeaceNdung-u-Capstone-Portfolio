@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGS 4101 Portfolio | Peace Ndung'u</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap');
+
+:root{
+  --primary:#00bcd4;
+  --secondary:#1a237e;
+  --soft:#f4f9fb;
+  --text:#212121;
+  --muted:#616161;
+  --hover-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;color:var(--text);line-height:1.7;background:#fff;scroll-behavior:smooth}
+
+header{position:sticky;top:48px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.1);z-index:100}
+.nav{max-width:1200px;margin:auto;padding:1rem;display:flex;justify-content:space-between;align-items:center}
+.nav h1{font-family:'Poppins';color:var(--primary);font-size:1.6rem}
+nav a{margin-left:18px;text-decoration:none;color:var(--text);font-weight:500;transition:0.3s}
+nav a:hover{color:var(--primary)}
+
+.hero{text-align:center;padding:4rem 1rem;background:var(--soft);border-radius:0 0 20px 20px;box-shadow:0 4px 12px rgba(0,0,0,.05)}
+.hero h2{font-family:'Poppins';font-size:1.9rem}
+.hero .course{color:var(--secondary);font-weight:700}
+.hero p{color:var(--muted)}
+
+section{padding:4rem 1rem}
+.container{max-width:1200px;margin:auto}
+.section-title{text-align:center;font-family:'Poppins';font-size:2rem;color:var(--secondary);margin-bottom:2rem;position:relative}
+.section-title::after{content:"";width:60px;height:4px;background:var(--primary);display:block;margin:12px auto;border-radius:2px}
+
+#about{background:#e0f7fa}
+#about p{max-width:900px;margin:auto;text-align:center;font-size:1.05rem}
+
+.card-row{display:flex;gap:25px;flex-wrap:wrap;justify-content:center;align-items:start}
+.card{background:#fff;border-radius:12px;padding:18px;max-width:360px;width:100%;box-shadow:0 4px 12px rgba(0,0,0,.08);transition:0.3s;display:flex;flex-direction:column;align-items:center}
+.card:hover{box-shadow:var(--hover-shadow);transform:translateY(-5px)}
+
+iframe{width:100%;border:none;border-radius:6px}
+.doc{height:420px;border:1px solid #ccc}
+.video{aspect-ratio:16/9;max-height:260px}
+
+.btn{display:block;margin-top:10px;padding:10px;text-align:center;background:var(--primary);color:#fff;text-decoration:none;font-weight:600;border-radius:6px;transition:0.3s}
+.btn:hover{background:#008ba3}
+.btn.alt{background:#fff;color:var(--primary);border:2px solid var(--primary)}
+.btn.alt:hover{background:var(--primary);color:#fff}
+
+footer{background:var(--secondary);color:#fff;padding:3rem 1rem;text-align:center}
+footer a{color:#fff;margin:0 10px;transition:0.3s}
+footer a:hover{color:var(--primary)}
+
+#file-links{background:#f0f0f0;padding-bottom:4rem}
+.link-list{max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.link{background:#fff;padding:14px;border-left:5px solid var(--primary);display:flex;justify-content:space-between;align-items:center}
+
+@media(max-width:1000px){.card-row{flex-direction:column;align-items:center}}
+@media(max-width:600px){.link-list{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div style="position:fixed;top:0;left:0;width:100%;background:var(--secondary);color:#fff;text-align:center;font-weight:700;padding:10px;z-index:200">IGS 4101 – Critical Thinking & Communication Skills</div>
+
+<header>
+  <div class="nav">
+    <h1>Peace Ndung'u</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#innovation">Invention</a>
+      <a href="#culture">African Culture</a>
+      <a href="#challenge">Modern Challenge</a>
+      <a href="#autobio">Autobiography</a>
+      <a href="#photo">Photo Essay</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h2 class="course">IGS 4101 – Critical Thinking & Communication Skills</h2>
+  <h2>Capstone Portfolio</h2>
+  <p>C025-01-0808/2022 · BSc Information Technology</p>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p>I am Peace Wanjiru Ndung'u, an Information Technology student at Dedan Kimathi University of Technology (DeKUT). I have strong skills in Python and R and growing interest in data analytics, machine learning, and computer vision. I am passionate about using technology to understand complex problems, communicate ideas clearly, and develop practical solutions that respond to real societal and cultural needs.</p>
+  </div>
+</section>
+
+<section id="resume">
+  <div class="container">
+    <h2 class="section-title">Resume</h2>
+    <div class="card-row">
+      <div class="card">
+        <h3>English</h3>
+        <iframe class="doc" src="https://docs.google.com/document/d/1WpkZz5qj4bRXT_etyhgdsH2B_nOKvUaE/preview"></iframe>
+        <a class="btn alt" href="https://docs.google.com/document/d/1WpkZz5qj4bRXT_etyhgdsH2B_nOKvUaE/edit?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=1WpkZz5qj4bRXT_etyhgdsH2B_nOKvUaE" download>Download</a>
+      </div>
+      <div class="card">
+        <h3>Kiswahili</h3>
+        <iframe class="doc" src="https://docs.google.com/document/d/17u659HmFWvixK4tfeACzGn_7CbdYQsiO/preview"></iframe>
+        <a class="btn alt" href="https://docs.google.com/document/d/17u659HmFWvixK4tfeACzGn_7CbdYQsiO/edit?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=17u659HmFWvixK4tfeACzGn_7CbdYQsiO" download>Download</a>
+      </div>
+      <div class="card">
+        <h3>Kikuyu</h3>
+        <iframe class="doc" src="[KIKUYU_CV_PREVIEW]"></iframe>
+        <a class="btn alt" href="[KIKUYU_CV_VIEW]" target="_blank">Click to View</a>
+        <a class="btn" href="[KIKUYU_CV_DOWNLOAD]" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Inventions -->
+<section id="innovation">
+  <div class="container">
+    <h2 class="section-title">Invention in My Field of Study</h2>
+    <div class="card-row">
+      <div class="card">
+        <iframe class="video" src="https://drive.google.com/file/d/1rjuUoeeZ_Hlf_rg8OkMqTBdfO_fhuZLg/preview" allowfullscreen></iframe>
+	<a class="btn alt" href="https://drive.google.com/file/d/1rjuUoeeZ_Hlf_rg8OkMqTBdfO_fhuZLg/view?usp=sharing" target="_blank">Click to View</a>
+        <p style="margin-top:8px;color:var(--muted)"><strong>Topic Description:</strong> The Deepfake Technology</p>
+      </div>
+      <div class="card">
+        <p><strong>Abstract:</strong></p>
+	<iframe class="doc" src="https://docs.google.com/document/d/1drQDFQ_2fx_fu-P_3Iv2dn5FZrZlYSbT/preview"></iframe>
+	<a class="btn alt" href="https://docs.google.com/document/d/1drQDFQ_2fx_fu-P_3Iv2dn5FZrZlYSbT/edit?usp=sharing" target="_blank">Click to View</a>
+	<a class="btn" href="https://drive.google.com/uc?export=download&id=1drQDFQ_2fx_fu-P_3Iv2dn5FZrZlYSbT" download>Download</a>
+
+        <p>English · Kiswahili · Kikuyu</p>
+      </div>
+      <div class="card">
+        <iframe class="doc" src="https://drive.google.com/file/d/133W7GVhUdCPyV4xQjlGV5-R23FIllrrf/preview"></iframe>
+        <a class="btn alt" href="https://drive.google.com/file/d/133W7GVhUdCPyV4xQjlGV5-R23FIllrrf/view?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=133W7GVhUdCPyV4xQjlGV5-R23FIllrrf" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- African Culture -->
+<section id="culture">
+  <div class="container">
+    <h2 class="section-title">An African Cultural Aspect</h2>
+    <div class="card-row">
+      <div class="card">
+        <iframe class="video" src="https://drive.google.com/file/d/1NxisyMtO1BsMGAU4oXZLApexbmieJ_aL/preview" allowfullscreen></iframe>
+	<a class="btn alt" href="https://drive.google.com/file/d/1NxisyMtO1BsMGAU4oXZLApexbmieJ_aL/view?usp=sharing" target="_blank">Click to View</a>
+        <p style="margin-top:8px;color:var(--muted)"><strong>Topic Description:</strong> The Curse of the Empty Baskets</p>
+      </div>
+      <div class="card">
+        <p><strong>Abstract:</strong></p>
+	<iframe class="doc" src="https://docs.google.com/document/d/1mp68AgfkRThfQJWkw9fHPuy2fd_10pfn/preview"></iframe>
+	<a class="btn alt" href="https://docs.google.com/document/d/1mp68AgfkRThfQJWkw9fHPuy2fd_10pfn/edit?usp=sharing" target="_blank">Click to View</a>
+	<a class="btn" href="https://drive.google.com/uc?export=download&id=1mp68AgfkRThfQJWkw9fHPuy2fd_10pfn" download>Download</a>
+        <p>English · Kiswahili · Kikuyu</p>
+      </div>
+      <div class="card">
+       <iframe class="doc" src="https://docs.google.com/presentation/d/1PGQFr9nxypClaVXxqZa4fF033s3w5e5Z/preview"></iframe>
+        <a class="btn alt" href="https://docs.google.com/presentation/d/1PGQFr9nxypClaVXxqZa4fF033s3w5e5Z/edit?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=1PGQFr9nxypClaVXxqZa4fF033s3w5e5Z" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modern Challenge -->
+<section id="challenge">
+  <div class="container">
+    <h2 class="section-title">Modern Society Challenge in African Society</h2>
+    <div class="card-row">
+      <div class="card">
+        <iframe class="video" src="https://drive.google.com/file/d/1wV5zTlUPd6_4ttZQu1ODfcEftO9Y0Zsc/preview" allowfullscreen></iframe>
+	<a class="btn alt" href="https://drive.google.com/file/d/1wV5zTlUPd6_4ttZQu1ODfcEftO9Y0Zsc/view?usp=sharing" target="_blank">Click to View</a>
+        <p style="margin-top:8px;color:var(--muted)"><strong>Topic Description:</strong> Digital Fraud and Mobile Money Scams in Kenya</p>
+      </div>
+      <div class="card">
+        <p><strong>Abstract:</strong></p>
+        <p>English · Kiswahili · Kikuyu</p>
+	<iframe class="doc" src="https://docs.google.com/document/d/1FEZXsG2V3oBv_dCdbKAjWgRfk8XSXH5S/preview"></iframe>
+	<a class="btn alt" href="https://docs.google.com/document/d/1FEZXsG2V3oBv_dCdbKAjWgRfk8XSXH5S/edit?usp=sharing" target="_blank">Click to View</a>
+	<a class="btn" href="https://drive.google.com/uc?export=download&id=1FEZXsG2V3oBv_dCdbKAjWgRfk8XSXH5S" download>Download</a>
+      </div>
+      <div class="card">
+        <iframe class="doc" src="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/preview"></iframe>
+        <a class="btn alt" href="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/edit?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Autobiography -->
+<section id="autobio">
+  <div class="container">
+    <h2 class="section-title">Autobiography</h2>
+    <div class="card-row">
+      <div class="card">
+        <h3>Autobiographical Essay (20–30 pages)</h3>
+        <iframe class="doc" src="[AUTOBIO_ESSAY_PREVIEW]"></iframe>
+        <a class="btn alt" href="[AUTOBIO_ESSAY_VIEW]" target="_blank">Click to View</a>
+        <a class="btn" href="[AUTOBIO_ESSAY_DOWNLOAD]" download>Download</a>
+      </div>
+      <div class="card">
+        <h3>Autobiography Presentation</h3>
+        <iframe class="doc" src="[AUTOBIO_PPT_PREVIEW]"></iframe>
+        <a class="btn alt" href="[AUTOBIO_PPT_VIEW]" target="_blank">Click to View</a>
+        <a class="btn" href="[AUTOBIO_PPT_DOWNLOAD]" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Photo Essay -->
+<section id="photo">
+  <div class="container">
+    <h2 class="section-title">Photographic Essay</h2>
+    <iframe class="doc" src="https://drive.google.com/file/d/1ssRyhUkbjhGq5IQGmZTDi46Lh7r0s3Tb/preview"></iframe>
+    <a class="btn alt" href="https://drive.google.com/file/d/1ssRyhUkbjhGq5IQGmZTDi46Lh7r0s3Tb/view?usp=drive_link" target="_blank">Click to View</a>
+    <a class="btn" href="https://drive.google.com/uc?export=download&id=1ssRyhUkbjhGq5IQGmZTDi46Lh7r0s3Tb" download>Download</a>
+  </div>
+</section>
+
+<!-- File Links -->
+<section id="file-links">
+  <div class="container">
+    <h2 class="section-title">All File Links</h2>
+    <div class="link-list">
+      <div class="link"><span>English CV</span><a href="https://docs.google.com/document/d/1WpkZz5qj4bRXT_etyhgdsH2B_nOKvUaE/edit?usp=sharing>Click Me</a></div>
+      <div class="link"><span>Kiswahili CV</span><a href="https://docs.google.com/document/d/17u659HmFWvixK4tfeACzGn_7CbdYQsiO/edit?usp=sharing>Click Me</a></div>
+      <div class="link"><span>Kikuyu CV</span><a href="https://docs.google.com/document/d/17u659HmFWvixK4tfeACzGn_7CbdYQsiO/edit?usp=sharing">Click Me</a></div>
+      <div class="link"><span>Autobiography Essay</span><a href="[AUTOBIO_ESSAY_DOWNLOAD]">Download</a></div>
+      <div class="link"><span>Invention Slides</span><a href="https://drive.google.com/file/d/1rjuUoeeZ_Hlf_rg8OkMqTBdfO_fhuZLg/view?usp=sharing">Click Me</a></div>
+      <div class="link"><span>African Culture Slides</span><a href="https://docs.google.com/presentation/d/1PGQFr9nxypClaVXxqZa4fF033s3w5e5Z/edit?usp=sharing">Click Me</a></div>
+      <div class="link"><span>Challenge Slides</span><a href="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/edit?usp=sharing">Click Me</a></div>
+      <div class="link"><span>Photo Essay</span><a href="https://drive.google.com/file/d/1ssRyhUkbjhGq5IQGmZTDi46Lh7r0s3Tb/view?usp=drive_link">Click Me</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 · Professional Online Presence</p>
+  <a href="www.linkedin.com/in/peace-ndungu-a55052336">LinkedIn</a>
+  <a href="https://www.instagram.com/paci.ficpeace/?hl=en">Instagram</a>
+  <a href="https://wifightclub.wordpress.com/?_gl=1*bubaeg*_gcl_au*MTU5NDMyNjYxNC4xNzY0MjU0Mzc3">Blog</a>
+  <a href="https://github.com/Pacific-hub">GitHub</a>
+  <a href="https://wa.me/254707401671?text=Hello%20Peace%2C%20I%20viewed%20your%20portfolio" 
+   target="_blank">
+   Chat on WhatsApp
+</a>
+  
+</footer>
+</body>
+</html>
