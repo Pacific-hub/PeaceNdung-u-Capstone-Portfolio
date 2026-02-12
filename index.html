@@ -56,6 +56,27 @@ iframe{width:100%;border:none;border-radius:6px}
 .doc{height:420px;border:1px solid #ccc}
 .video{aspect-ratio:16/9;max-height:260px}
 
+/* New Style for the "Too Large" Placeholder */
+.doc-placeholder {
+  height: 420px;
+  width: 100%;
+  border: 1px dashed #ccc;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+}
+.doc-placeholder i {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
 .btn{display:block;margin-top:10px;padding:10px;text-align:center;background:var(--primary);color:#fff;text-decoration:none;font-weight:600;border-radius:6px;transition:0.3s}
 .btn:hover{background:#008ba3}
 .btn.alt{background:#fff;color:var(--primary);border:2px solid var(--primary)}
@@ -100,7 +121,7 @@ footer a:hover{color:var(--primary)}
 <section id="about">
   <div class="container">
     <h2 class="section-title">About Me</h2>
-    <img src="https://drive.google.com/thumbnail?id=1Z1UbDX43JH-UO4HUw-d04wIf0gcgVQy9&sz=w500" alt="Peace Wanjiru Ndung'u" class="profile-pic">
+    <img src="https://drive.google.com/uc?export=view&id=1Z1UbDX43JH-UO4HUw-d04wIf0gcgVQy9" alt="Peace Wanjiru Ndung'u" class="profile-pic">
     <p>I am Peace Wanjiru Ndung'u, an Information Technology student at Dedan Kimathi University of Technology (DeKUT). I have strong skills in Python and R and growing interest in data analytics, machine learning, and computer vision. I am passionate about using technology to understand complex problems, communicate ideas clearly, and develop practical solutions that respond to real societal and cultural needs.</p>
   </div>
 </section>
@@ -198,9 +219,14 @@ footer a:hover{color:var(--primary)}
         <p>English · Kiswahili · Kikuyu</p>
       </div>
       <div class="card">
-        <iframe class="doc" src="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/preview"></iframe>
-        <a class="btn alt" href="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/edit?usp=sharing" target="_blank">Click to View</a>
-        <a class="btn" href="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/export/pdf" download>Download</a>
+        <div class="doc-placeholder">
+          <i class="fa-solid fa-file-powerpoint"></i>
+          <p><strong>Presentation Preview Unavailable</strong></p>
+          <p style="font-size:0.9rem; margin-top:5px;">File is too large to preview embedded.</p>
+          <p style="font-size:0.9rem;">Please click below to view.</p>
+        </div>
+        <a class="btn alt" href="https://docs.google.com/presentation/d/1JJpjVZLiwAm-ibZ83QAKKucKgF1AbjIn/edit?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://docs.google.com/presentation/d/1JJpjVZLiwAm-ibZ83QAKKucKgF1AbjIn/export/pdf" download>Download</a>
       </div>
     </div>
   </div>
@@ -218,9 +244,9 @@ footer a:hover{color:var(--primary)}
       </div>
       <div class="card">
         <h3>Autobiography Presentation</h3>
-        <iframe class="doc" src="https://docs.google.com/presentation/d/1VluBxdthFydz1lchLYFJkdUk9S94k5t_/embed?start=false&loop=false&delayms=3000"></iframe>
-        <a class="btn alt" href="https://docs.google.com/presentation/d/1VluBxdthFydz1lchLYFJkdUk9S94k5t_/edit?usp=sharing" target="_blank">Click to View</a>
-        <a class="btn" href="https://docs.google.com/presentation/d/1VluBxdthFydz1lchLYFJkdUk9S94k5t_/export/pdf" download>Download</a>
+        <iframe class="doc" src="https://drive.google.com/file/d/1z_oBlyfrPClSUj-IaRcF30KwURcXoTyQ/preview"></iframe>
+        <a class="btn alt" href="https://drive.google.com/file/d/1z_oBlyfrPClSUj-IaRcF30KwURcXoTyQ/view?usp=sharing" target="_blank">Click to View</a>
+        <a class="btn" href="https://drive.google.com/uc?export=download&id=1z_oBlyfrPClSUj-IaRcF30KwURcXoTyQ" download>Download</a>
       </div>
     </div>
   </div>
@@ -245,7 +271,7 @@ footer a:hover{color:var(--primary)}
       <div class="link"><span>Autobiography Essay</span><a href="https://docs.google.com/document/d/1ADmafADifWOCmICzZJj0dvNnwqj4QHhu/export?format=pdf">Download</a></div>
       <div class="link"><span>Invention Slides</span><a href="https://drive.google.com/file/d/1c3MiyrDEhWFws3r_SiRo9_9VQrJT3f8_/view?usp=sharing">Click Me</a></div>
       <div class="link"><span>African Culture Slides</span><a href="https://docs.google.com/presentation/d/1PGQFr9nxypClaVXxqZa4fF033s3w5e5Z/edit?usp=sharing">Click Me</a></div>
-      <div class="link"><span>Challenge Slides</span><a href="https://docs.google.com/presentation/d/1wVoffs6OYORR0JFPbdp4YrHAgWiIMz0i/edit?usp=sharing">Click Me</a></div>
+      <div class="link"><span>Challenge Slides</span><a href="https://docs.google.com/presentation/d/1JJpjVZLiwAm-ibZ83QAKKucKgF1AbjIn/edit?usp=sharing">Click Me</a></div>
       <div class="link"><span>Photo Essay</span><a href="https://docs.google.com/document/d/113A1O1hVMd4eHjonHzRMnw5VGErWMGnl/edit?usp=sharing">Click Me</a></div>
     </div>
   </div>
